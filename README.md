@@ -10,6 +10,7 @@ git clone https://github.com/GurmanSingh21/Task-2
 
 ```shell
 npm run dev
-or
+```
+```shell
 bun dev
 ```
