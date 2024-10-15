@@ -4,8 +4,8 @@ import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 const Cred = () => {
   return (
-    <section className='flex flex-row md:px-14 px-4 mb-4'>
-        <div className='flex flex-row gap-4 flex-none'>
+    <section className='flex sm:flex-row flex-col justify-center md:px-14 px-4 mb-4'>
+        <div className='flex flex-row gap-4 flex-none mb-3 sm:mb-0 ml-4 sm:ml-0'>
             <a href="https://www.facebook.com/" target='_blank'>
             <span className='w-14 h-14 bg-iconBg rounded-full items-center justify-center flex hover:bg-secondary hover:text-white text-textSecondary'>
                 <FaFacebook className='w-8 h-8' />
@@ -28,7 +28,7 @@ const Cred = () => {
             </a>
         </div>
         <div className='grow justify-evenly flex items-center'>
-            <p className='font-body text-textSecondary text-xl'>Copyright<BiCopyright className='inline pb-1 '/> 2023 Dscode | All rights reserved</p>
+            <p className='font-body text-textSecondary sm:text-xl text-lg'>Copyright<BiCopyright className='inline pb-1 '/> 2023 Dscode | All rights reserved</p>
         </div>
     </section>
   )

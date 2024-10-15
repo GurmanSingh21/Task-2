@@ -4,12 +4,12 @@ import logo from '../assets/logo.png';
 const Footer = () => {
   return (
     <section id='footer' className='flex sm:flex-row flex-col space-y-8 md:px-14 px-4 mb-4'>
-      <div className='flex flex-col sm:flex-row flex-none sm:space-x-14 space-x-0 justify-center items-center'>
+      <div className='flex flex-col sm:flex-row flex-none sm:space-x-14 space-x-0 sm:justify-center items-center'>
         <img src={logo} alt="logo" className="w-32 h-32 md:w-32 md:h-32 lg:w-40 lg:h-40" />
 
-        <p className='text-textSecondary font-body text-xl sm:mt-8 mt-6'>Savor the artistry where<br />every dish is a culinary<br />masterpiece</p>
+        <p className='text-textSecondary font-body text-xl sm:mt-8 mt-6'>Savor the artistry where <br className='sm:block hidden'/>every<br className='sm:hidden block'/> dish is a culinary<br className='sm:block hidden'/> masterpiece</p>
       </div>
-      <div className='flex flex-row grow justify-evenly px-8'>
+      <div className='flex flex-row grow sm:justify-around justify-between sm:gap-0 gap-4 px-8'>
         <span className='space-y-6'>
           <h3 className='font-heading font-bold'>Useful links</h3>
           <nav className='flex pb-2 justify-between items-center'>
